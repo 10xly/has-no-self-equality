@@ -1,6 +1,6 @@
 {
   "name": "has-no-self-equality",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if a value has no self equality",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/tj-commits/has-no-self-equality#readme",
   "dependencies": {
+    "@not-js/not": "^1.1.1",
     "has-self-equality": "^0.0.2"
   },
   "devDependencies": {

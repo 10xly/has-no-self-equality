@@ -1,5 +1,3 @@
 const hasSelfEquality = require('has-self-equality')
 
-module.exports = function hasNoSelfEquality(value) {
-  return !hasSelfEquality(value)
-}
+module.exports = require("@not-js/not")(hasSelfEquality)
