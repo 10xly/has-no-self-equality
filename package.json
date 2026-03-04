@@ -35,5 +35,9 @@
   "homepage": "https://github.com/tj-commits/has-no-self-equality#readme",
   "dependencies": {
     "has-self-equality": "^0.0.2"
+  },
+  "devDependencies": {
+    "@10xly/eslint-config": "*",
+    "eslint": "^9.39.3"
   }
 }
